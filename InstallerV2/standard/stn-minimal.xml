@@ -1,0 +1,17 @@
+<Configuration>
+ 
+  <Add OfficeClientEdition="64" DownloadPath="">
+    <Product ID="Standard2021Volume" PIDKEY="KDX7X-BNVR8-TXXGX-4Q7Y8-78VT3" >
+      <Language ID="en-us" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="Outlook" />
+    </Product>
+  </Add>
+  
+  <Display Level="None" AcceptEULA="TRUE" />
+  <Property Name="AUTOACTIVATE" Value="1"/>
+
+</Configuration>
