@@ -47,15 +47,13 @@
 		echo Setup failed with error code %errorlevel%.
 	) else (
 		echo Setup completed successfully, copying master repository to proper directory.
-		)
-		
-	if %errorlevel% equ 0 (
 		if "%choice%"=="1" (
 			xcopy %~dp0downloader\Office %~dp0standard\
 		) else(
 			xcopy %~dp0downloader\Office %~dp0pro\		
 			)
-	)	
+		)
+		
 
 	echo Current directory: %current_dir%
 	pause
