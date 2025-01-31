@@ -7,5 +7,8 @@ This installer is used alongside the ODT, downloadable from Microsoft here: http
 In order for this to work, you must do the following:
 
 1. Place 
-2. Extract the ODT contents, put the Office "setup.exe" file in the cooresponding folder to the version you wish to install (Standard/Pro), discard the xml files.
-3.    
+2. Extract the ODT contents, put one copy of the Office "setup.exe" file in each of the following folders:
+   1. pro
+   2. standard
+   3. downloader
+3. Run the installer.bat file and follow instructions.    
