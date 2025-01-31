@@ -51,7 +51,8 @@
 			xcopy %~dp0downloader\Office %~dp0standard\
 		) else(
 			xcopy %~dp0downloader\Office %~dp0pro\		
-	)
+			)
+		)
 
 	echo Current directory: %current_dir%
 	pause
